@@ -4,6 +4,7 @@ import { FiArrowLeft } from "react-icons/fi";
 import { Map, Marker, TileLayer } from "react-leaflet";
 import { LeafletMouseEvent } from "leaflet";
 import api from "../../services/api";
+import collect from "collect.js";
 import axios from "axios";
 import logo from "../../assets/logo.svg";
 import "./styles.css";
@@ -75,7 +76,8 @@ const CreatePoint = () => {
           initials: uf.sigla,
           name: uf.nome,
         }));
-        setUf(formattedUf);
+        const teste = collect(formattedUf).sortBy("name").toArray() as UF[];
+        setUf(teste);
       });
   }, []);
 
