@@ -1,0 +1,24 @@
+{
+  // Configura o verificador ortográfico.
+  "cSpell.enabled": true,
+  "cSpell.language": "en-US, pt-BR",
+
+  // Configura o verificador LaTeX.
+  "ltex.enabled": true,
+  "ltex.language": "pt-BR",
+  "ltex.diagnosticSeverity": "error",
+
+  // Configura tamanho e família da fonte.
+  "editor.fontSize": 16,
+  "editor.lineHeight": 24,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+
+  "cSpell.words": [
+    "whatsapp"
+  ],
+  "cSpell.ignoreWords": [
+    "ibgeuf",
+    "response"
+  ]
+}
