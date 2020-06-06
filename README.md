@@ -1,4 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Aplicação Ecoleta desenvolvidade durante o evento Next Level Weekend / Booster da Rocketseat.
+
+![Front](images/web.png)
+
+Utilizamos React + TypeScript no seu desenvolvimento.
+
 
 ## Available Scripts
 
